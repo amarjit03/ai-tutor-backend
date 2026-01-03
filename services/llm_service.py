@@ -19,10 +19,18 @@ class LLMService:
         self.max_tokens = settings.LLM_MAX_TOKENS
     
     def _get_client(self) -> Groq:
-        """Get or create Groq client"""
+        """Get or create Groq client
+        
+        NOTE:
+        - Do NOT pass `proxies` directly to Groq().
+        - Use environment variables (HTTP_PROXY, HTTPS_PROXY) or httpx.Client instead.
+        - The Groq SDK uses httpx internally which respects environment proxy settings.
+        """
         if self.client is None:
             if not settings.GROQ_API_KEY:
                 raise ValueError("GROQ_API_KEY not set in environment")
+            # Initialize Groq client with api_key only
+            # Proxies should be configured via environment variables
             self.client = Groq(api_key=settings.GROQ_API_KEY)
         return self.client
     

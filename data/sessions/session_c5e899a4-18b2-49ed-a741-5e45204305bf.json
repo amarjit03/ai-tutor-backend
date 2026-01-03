@@ -1,0 +1,199 @@
+{
+  "session_id": "c5e899a4-18b2-49ed-a741-5e45204305bf",
+  "student_id": "student_1767462669293_trehuzblq",
+  "created_at": "2026-01-03T17:51:09.307023",
+  "updated_at": "2026-01-03T17:51:52.098802",
+  "status": "active",
+  "meta": {
+    "subject": "Science",
+    "class_grade": 8,
+    "board": "CBSE",
+    "chapter": "Light",
+    "chapter_number": 1,
+    "topic_requested": "Light",
+    "session_type": "learning",
+    "estimated_duration_minutes": 30
+  },
+  "student": {
+    "student_id": "student_1767462669293_trehuzblq",
+    "name": "vishal",
+    "class_grade": 8,
+    "board": "CBSE",
+    "preferences": {
+      "learning_style": "examples",
+      "pace": "medium",
+      "encouragement_level": "high",
+      "preferred_language": "English"
+    },
+    "interests": [
+      "cricket"
+    ],
+    "known_weaknesses": []
+  },
+  "current_phase": "diagnostic",
+  "diagnostic": {
+    "status": "in_progress",
+    "started_at": "2026-01-03T17:51:34.055093",
+    "completed_at": null,
+    "questions": [
+      {
+        "question_id": "diag_q1",
+        "question_text": "What is light?",
+        "question_type": "short_answer",
+        "difficulty": "medium",
+        "concept_tested": "Introduction to Light",
+        "student_answer": "b",
+        "correct_answer": "Light is a form of energy that enables us to see.",
+        "is_correct": false,
+        "time_taken_seconds": null,
+        "hints_used": 0,
+        "mistake_analysis": "The student seems to have a limited understanding of what light is."
+      },
+      {
+        "question_id": "diag_q1",
+        "question_text": "What is the main reason we are able to see objects around us?",
+        "question_type": "multiple_choice",
+        "difficulty": "medium",
+        "concept_tested": "Introduction to Light",
+        "student_answer": null,
+        "correct_answer": "B) Because they reflect light that falls on them",
+        "is_correct": null,
+        "time_taken_seconds": null,
+        "hints_used": 0,
+        "mistake_analysis": null
+      },
+      {
+        "question_id": "diag_q3",
+        "question_text": "What is the main reason we are able to see objects around us?",
+        "question_type": "multiple_choice",
+        "difficulty": "easy",
+        "concept_tested": "Introduction to Light",
+        "student_answer": null,
+        "correct_answer": "C) Because light reflects off the objects and into our eyes",
+        "is_correct": null,
+        "time_taken_seconds": null,
+        "hints_used": 0,
+        "mistake_analysis": null
+      },
+      {
+        "question_id": "diag_q1",
+        "question_text": "What is the main source of light that we use in our daily lives?",
+        "question_type": "multiple_choice",
+        "difficulty": "medium",
+        "concept_tested": "Introduction to Light",
+        "student_answer": null,
+        "correct_answer": "C) Electric Bulb",
+        "is_correct": null,
+        "time_taken_seconds": null,
+        "hints_used": 0,
+        "mistake_analysis": null
+      },
+      {
+        "question_id": "diag_q2",
+        "question_text": "What is the main source of light for our planet?",
+        "question_type": "multiple_choice",
+        "difficulty": "easy",
+        "concept_tested": "Introduction to Light",
+        "student_answer": "b",
+        "correct_answer": "B) Sun",
+        "is_correct": true,
+        "time_taken_seconds": null,
+        "hints_used": 0,
+        "mistake_analysis": null
+      },
+      {
+        "question_id": "diag_q7",
+        "question_text": "What happens when light travels from one medium to another?",
+        "question_type": "multiple_choice",
+        "difficulty": "medium",
+        "concept_tested": "Refraction of Light",
+        "student_answer": null,
+        "correct_answer": "C) It changes direction",
+        "is_correct": null,
+        "time_taken_seconds": null,
+        "hints_used": 0,
+        "mistake_analysis": null
+      }
+    ],
+    "current_question_index": 0,
+    "assessment": null
+  },
+  "study_plan": {
+    "generated_at": null,
+    "total_concepts": 0,
+    "estimated_time_minutes": 0,
+    "concepts": [],
+    "current_concept_index": 0
+  },
+  "teaching_log": [],
+  "conversation": {
+    "total_messages": 9,
+    "recent_messages": [
+      {
+        "role": "assistant",
+        "content": "Namaste Vishal! Let's play a game with light. Imagine you're playing cricket on a sunny day. You need to adjust your fielding position based on where the sun is. So, let's start with something basic. What is light?",
+        "timestamp": "2026-01-03T17:51:10.625503"
+      },
+      {
+        "role": "assistant",
+        "content": "Namaste Vishal, let's start our journey to understand Light. Imagine you're playing cricket on a sunny day. The ball is thrown, and you see it coming towards you. But have you ever thought, how do you see the ball? Let's find out. Here's your first question:",
+        "timestamp": "2026-01-03T17:51:11.663190"
+      },
+      {
+        "role": "user",
+        "content": "b",
+        "timestamp": "2026-01-03T17:51:24.491182"
+      },
+      {
+        "role": "assistant",
+        "content": "Achha, Vishal! Don't worry, it's okay. Light is actually a form of energy that enables us to see. Think of it like this: when you're playing cricket and you hit a six, you see the ball flying through the air because of light. It helps us see everything around us. Let's try to understand this concept better.",
+        "timestamp": "2026-01-03T17:51:25.781339"
+      },
+      {
+        "role": "assistant",
+        "content": "Namaste vishal, let's start our journey to understand Light! Just like a cricket ball travels from the bowler's hand to the batsman, light also travels. Can you tell me, what is the main source of light that we use in our daily lives?",
+        "timestamp": "2026-01-03T17:51:35.100155"
+      },
+      {
+        "role": "user",
+        "content": "b",
+        "timestamp": "2026-01-03T17:51:40.639701"
+      },
+      {
+        "role": "assistant",
+        "content": "Achha, Vishal! Don't worry, it's okay. Light is actually a form of energy that enables us to see. Think of it like this: when you're playing cricket and you hit a six, you see the ball flying through the air because of light. It helps us see everything around us. Let's try to understand more about light together!",
+        "timestamp": "2026-01-03T17:51:41.757912"
+      },
+      {
+        "role": "user",
+        "content": "b",
+        "timestamp": "2026-01-03T17:51:51.113344"
+      },
+      {
+        "role": "assistant",
+        "content": "Sahi, Vishal! You're absolutely right. The main source of light is indeed the Sun. Just like how the Sun helps us see during the day, it also helps plants grow. Great job!",
+        "timestamp": "2026-01-03T17:51:52.098578"
+      }
+    ],
+    "student_mood": "engaged",
+    "confusion_signals": 0,
+    "frustration_signals": 0,
+    "last_encouragement_at": null
+  },
+  "stats": {
+    "duration_minutes": 0,
+    "questions_attempted": 3,
+    "questions_correct": 1,
+    "accuracy_rate": 0.3333333333333333,
+    "hints_used": 0,
+    "concepts_taught": 0,
+    "concepts_mastered": 0,
+    "xp_earned": 0,
+    "streak_maintained": true
+  },
+  "ai_notes": {
+    "observations": [],
+    "teaching_adjustments_made": [],
+    "next_session_recommendations": []
+  }
+}

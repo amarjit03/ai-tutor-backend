@@ -1,13 +1,18 @@
 """
 Configuration settings for AI Tutor Backend
 """
-import os
-from pydantic_settings import BaseSettings
+from pydantic_settings import BaseSettings, SettingsConfigDict
 from typing import Optional
 
 
 class Settings(BaseSettings):
     """Application settings loaded from environment variables"""
+    
+    model_config = SettingsConfigDict(
+        env_file=".env",
+        env_file_encoding="utf-8",
+        case_sensitive=False
+    )
     
     # API Keys
     GROQ_API_KEY: str = ""
@@ -29,10 +34,6 @@ class Settings(BaseSettings):
     MAX_DIAGNOSTIC_QUESTIONS: int = 6
     MASTERY_THRESHOLD: float = 0.7  # 70% to pass
     MAX_CONCEPT_ATTEMPTS: int = 3
-    
-    class Config:
-        env_file = ".env"
-        env_file_encoding = "utf-8"
 
 
 # Global settings instance

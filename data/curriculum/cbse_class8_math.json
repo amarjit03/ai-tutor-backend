@@ -1,0 +1,192 @@
+{
+  "_schema_version": "1.0",
+  "_description": "CBSE Class 8 Mathematics Curriculum Reference",
+  
+  "curriculum_id": "cbse_class8_math",
+  "class": 8,
+  "subject": "Mathematics",
+  "board": "CBSE",
+  "academic_year": "2024-25",
+  
+  "chapters": [
+    {
+      "chapter_id": "ch1",
+      "chapter_number": 1,
+      "name": "Rational Numbers",
+      "estimated_hours": 8,
+      "difficulty": "medium",
+      "learning_objectives": [
+        "Understand properties of rational numbers",
+        "Perform operations on rational numbers",
+        "Represent rational numbers on number line"
+      ],
+      "concepts": [
+        {
+          "concept_id": "ch1_c1",
+          "name": "Properties of Rational Numbers",
+          "subtopics": ["Closure property", "Commutative property", "Associative property", "Distributive property"],
+          "prerequisites": ["fractions_basics", "integers"],
+          "difficulty": "medium",
+          "real_world_applications": ["Sharing pizza equally", "Calculating discounts"]
+        },
+        {
+          "concept_id": "ch1_c2",
+          "name": "Representation on Number Line",
+          "subtopics": ["Plotting rational numbers", "Finding rational numbers between two numbers"],
+          "prerequisites": ["ch1_c1"],
+          "difficulty": "easy",
+          "real_world_applications": ["Temperature readings", "Measuring height below sea level"]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch2",
+      "chapter_number": 2,
+      "name": "Linear Equations in One Variable",
+      "estimated_hours": 6,
+      "difficulty": "medium",
+      "learning_objectives": [
+        "Solve linear equations with one variable",
+        "Apply equations to word problems",
+        "Understand transposition method"
+      ],
+      "concepts": [
+        {
+          "concept_id": "ch2_c1",
+          "name": "Solving Simple Linear Equations",
+          "subtopics": ["Basic equations", "Equations with brackets"],
+          "prerequisites": ["basic_algebra"],
+          "difficulty": "easy",
+          "real_world_applications": ["Finding unknown prices", "Age problems"]
+        },
+        {
+          "concept_id": "ch2_c2",
+          "name": "Transposition Method",
+          "subtopics": ["Moving terms", "Sign changes"],
+          "prerequisites": ["ch2_c1"],
+          "difficulty": "medium",
+          "real_world_applications": ["Balancing equations", "Finding missing values"]
+        },
+        {
+          "concept_id": "ch2_c3",
+          "name": "Equations with Variables on Both Sides",
+          "subtopics": ["Collecting like terms", "Simplification"],
+          "prerequisites": ["ch2_c2"],
+          "difficulty": "medium",
+          "real_world_applications": ["Comparing costs", "Finding break-even points"]
+        },
+        {
+          "concept_id": "ch2_c4",
+          "name": "Word Problems",
+          "subtopics": ["Age problems", "Number problems", "Geometry problems"],
+          "prerequisites": ["ch2_c1", "ch2_c2", "ch2_c3"],
+          "difficulty": "hard",
+          "real_world_applications": ["Real-life problem solving", "Planning and budgeting"]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch3",
+      "chapter_number": 3,
+      "name": "Understanding Quadrilaterals",
+      "estimated_hours": 7,
+      "difficulty": "medium",
+      "learning_objectives": [
+        "Classify quadrilaterals",
+        "Understand properties of different quadrilaterals",
+        "Calculate angles and sides"
+      ],
+      "concepts": [
+        {
+          "concept_id": "ch3_c1",
+          "name": "Types of Quadrilaterals",
+          "subtopics": ["Parallelogram", "Rectangle", "Square", "Rhombus", "Trapezium"],
+          "prerequisites": ["basic_geometry"],
+          "difficulty": "easy",
+          "real_world_applications": ["Identifying shapes in buildings", "Art and design"]
+        },
+        {
+          "concept_id": "ch3_c2",
+          "name": "Properties of Parallelograms",
+          "subtopics": ["Opposite sides", "Opposite angles", "Diagonals"],
+          "prerequisites": ["ch3_c1"],
+          "difficulty": "medium",
+          "real_world_applications": ["Architecture", "Engineering"]
+        },
+        {
+          "concept_id": "ch3_c3",
+          "name": "Angle Sum Property",
+          "subtopics": ["Sum of interior angles", "Finding missing angles"],
+          "prerequisites": ["ch3_c1"],
+          "difficulty": "medium",
+          "real_world_applications": ["Construction", "Map making"]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch4",
+      "chapter_number": 4,
+      "name": "Practical Geometry",
+      "estimated_hours": 5,
+      "difficulty": "medium",
+      "learning_objectives": [
+        "Construct quadrilaterals with given measurements",
+        "Use compass and ruler for constructions"
+      ],
+      "concepts": [
+        {
+          "concept_id": "ch4_c1",
+          "name": "Constructing Quadrilaterals",
+          "subtopics": ["Given four sides and one diagonal", "Given three sides and two diagonals"],
+          "prerequisites": ["ch3_c1", "basic_constructions"],
+          "difficulty": "medium",
+          "real_world_applications": ["Technical drawing", "Design"]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch5",
+      "chapter_number": 5,
+      "name": "Data Handling",
+      "estimated_hours": 6,
+      "difficulty": "easy",
+      "learning_objectives": [
+        "Organize and represent data",
+        "Understand probability basics",
+        "Read and interpret graphs"
+      ],
+      "concepts": [
+        {
+          "concept_id": "ch5_c1",
+          "name": "Organizing Data",
+          "subtopics": ["Frequency distribution", "Grouping data"],
+          "prerequisites": [],
+          "difficulty": "easy",
+          "real_world_applications": ["Survey analysis", "Sports statistics"]
+        },
+        {
+          "concept_id": "ch5_c2",
+          "name": "Pie Charts and Bar Graphs",
+          "subtopics": ["Creating charts", "Interpreting charts"],
+          "prerequisites": ["ch5_c1"],
+          "difficulty": "easy",
+          "real_world_applications": ["Budget planning", "Sales reports"]
+        },
+        {
+          "concept_id": "ch5_c3",
+          "name": "Introduction to Probability",
+          "subtopics": ["Outcomes", "Favorable outcomes", "Simple probability"],
+          "prerequisites": ["ch5_c1"],
+          "difficulty": "medium",
+          "real_world_applications": ["Weather prediction", "Games", "Decision making"]
+        }
+      ]
+    }
+  ],
+  
+  "cross_chapter_prerequisites": {
+    "ch2": ["basic_algebra"],
+    "ch3": ["basic_geometry"],
+    "ch4": ["ch3"]
+  }
+}

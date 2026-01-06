@@ -1,8 +1,8 @@
 {
-  "session_id": "d1fa860f-58bd-4ebe-8fd8-7793d90dac4b",
-  "student_id": "std_01",
-  "created_at": "2026-01-03T17:37:20.172263",
-  "updated_at": "2026-01-04T08:31:00.726893",
+  "session_id": "1732e708-b5a7-4707-a8ab-84bd3000775e",
+  "student_id": "stu_001",
+  "created_at": "2026-01-04T08:35:28.130810",
+  "updated_at": "2026-01-04T08:35:28.130912",
   "status": "active",
   "meta": {
     "subject": "Mathematics",
@@ -15,7 +15,7 @@
     "estimated_duration_minutes": 30
   },
   "student": {
-    "student_id": "std_01",
+    "student_id": "stu_001",
     "name": "Aarav Sharma",
     "class_grade": 8,
     "board": "CBSE",
@@ -31,26 +31,12 @@
     ],
     "known_weaknesses": []
   },
-  "current_phase": "diagnostic",
+  "current_phase": "topic_selection",
   "diagnostic": {
-    "status": "in_progress",
-    "started_at": "2026-01-03T17:50:29.205178",
+    "status": "pending",
+    "started_at": null,
     "completed_at": null,
-    "questions": [
-      {
-        "question_id": "diag_q1",
-        "question_text": "Solve for x: 2x + 5 = 11",
-        "question_type": "numeric",
-        "difficulty": "medium",
-        "concept_tested": "Solving Linear Equations",
-        "student_answer": null,
-        "correct_answer": "3",
-        "is_correct": null,
-        "time_taken_seconds": null,
-        "hints_used": 0,
-        "mistake_analysis": null
-      }
-    ],
+    "questions": [],
     "current_question_index": 0,
     "assessment": null
   },
@@ -63,14 +49,8 @@
   },
   "teaching_log": [],
   "conversation": {
-    "total_messages": 1,
-    "recent_messages": [
-      {
-        "role": "assistant",
-        "content": "Hey Aarav, let's get started! Can you solve this equation: 2x + 5 = 11?",
-        "timestamp": "2026-01-03T17:50:30.183454"
-      }
-    ],
+    "total_messages": 0,
+    "recent_messages": [],
     "student_mood": "engaged",
     "confusion_signals": 0,
     "frustration_signals": 0,
@@ -81,7 +61,7 @@
     "questions_attempted": 0,
     "questions_correct": 0,
     "accuracy_rate": 0.0,
-    "hints_used": 1,
+    "hints_used": 0,
     "concepts_taught": 0,
     "concepts_mastered": 0,
     "xp_earned": 0,

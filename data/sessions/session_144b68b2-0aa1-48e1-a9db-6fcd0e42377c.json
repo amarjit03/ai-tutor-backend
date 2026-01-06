@@ -1,0 +1,135 @@
+{
+  "session_id": "144b68b2-0aa1-48e1-a9db-6fcd0e42377c",
+  "student_id": "student_1767463505959_6b2bjzkxx",
+  "created_at": "2026-01-03T18:05:05.983147",
+  "updated_at": "2026-01-03T18:06:22.178144",
+  "status": "active",
+  "meta": {
+    "subject": "Science",
+    "class_grade": 8,
+    "board": "CBSE",
+    "chapter": "Sound",
+    "chapter_number": 1,
+    "topic_requested": "Sound",
+    "session_type": "learning",
+    "estimated_duration_minutes": 30
+  },
+  "student": {
+    "student_id": "student_1767463505959_6b2bjzkxx",
+    "name": "Amarjit",
+    "class_grade": 8,
+    "board": "CBSE",
+    "preferences": {
+      "learning_style": "examples",
+      "pace": "medium",
+      "encouragement_level": "high",
+      "preferred_language": "English"
+    },
+    "interests": [
+      "cricket"
+    ],
+    "known_weaknesses": []
+  },
+  "current_phase": "diagnostic",
+  "diagnostic": {
+    "status": "in_progress",
+    "started_at": "2026-01-03T18:05:51.778490",
+    "completed_at": null,
+    "questions": [
+      {
+        "question_id": "diag_q1",
+        "question_text": "How does sound travel from the field to your ears in the stadium?",
+        "question_type": "multiple_choice",
+        "difficulty": "medium",
+        "concept_tested": "Sound Propagation",
+        "student_answer": "c",
+        "correct_answer": "C) Through air",
+        "is_correct": true,
+        "time_taken_seconds": null,
+        "hints_used": 0,
+        "mistake_analysis": null
+      },
+      {
+        "question_id": "diag_q2",
+        "question_text": "What happens to the speed of sound when the temperature increases?",
+        "question_type": "multiple_choice",
+        "difficulty": "medium",
+        "concept_tested": "Speed of Sound",
+        "student_answer": null,
+        "correct_answer": "C) It increases",
+        "is_correct": null,
+        "time_taken_seconds": null,
+        "hints_used": 0,
+        "mistake_analysis": null
+      },
+      {
+        "question_id": "diag_q1",
+        "question_text": "What travels through the air to reach your ears, allowing you to hear the sound of the ball?",
+        "question_type": "short_answer",
+        "difficulty": "medium",
+        "concept_tested": "Sound waves",
+        "student_answer": null,
+        "correct_answer": "Sound waves",
+        "is_correct": null,
+        "time_taken_seconds": null,
+        "hints_used": 0,
+        "mistake_analysis": null
+      }
+    ],
+    "current_question_index": 0,
+    "assessment": null
+  },
+  "study_plan": {
+    "generated_at": null,
+    "total_concepts": 0,
+    "estimated_time_minutes": 0,
+    "concepts": [],
+    "current_concept_index": 0
+  },
+  "teaching_log": [],
+  "conversation": {
+    "total_messages": 4,
+    "recent_messages": [
+      {
+        "role": "assistant",
+        "content": "Namaste Amarjit, let's begin our Sound topic assessment. Imagine you're at a cricket stadium and you hear the sound of the bat hitting the ball. How does the sound of the bat hitting the ball travel from the field to your ears in the stadium?",
+        "timestamp": "2026-01-03T18:05:09.681532"
+      },
+      {
+        "role": "user",
+        "content": "c",
+        "timestamp": "2026-01-03T18:05:35.094521"
+      },
+      {
+        "role": "assistant",
+        "content": "Sahi, Amarjit! You're absolutely right. Sound travels through air, just like how the sound of the bat hitting the ball reaches your ears at the cricket stadium. Well done!",
+        "timestamp": "2026-01-03T18:05:36.298273"
+      },
+      {
+        "role": "assistant",
+        "content": "Let's see what you already know about Sound. Imagine you're watching a cricket match, and the batsman hits a six. You hear the sound of the ball flying through the air and hitting the ground. What is it that travels through the air to reach your ears, allowing you to hear the sound of the ball?",
+        "timestamp": "2026-01-03T18:05:53.527859"
+      }
+    ],
+    "student_mood": "engaged",
+    "confusion_signals": 0,
+    "frustration_signals": 0,
+    "last_encouragement_at": null
+  },
+  "stats": {
+    "duration_minutes": 0,
+    "questions_attempted": 1,
+    "questions_correct": 1,
+    "accuracy_rate": 1.0,
+    "hints_used": 2,
+    "concepts_taught": 0,
+    "concepts_mastered": 0,
+    "xp_earned": 0,
+    "streak_maintained": true
+  },
+  "ai_notes": {
+    "observations": [],
+    "teaching_adjustments_made": [],
+    "next_session_recommendations": []
+  }
+}

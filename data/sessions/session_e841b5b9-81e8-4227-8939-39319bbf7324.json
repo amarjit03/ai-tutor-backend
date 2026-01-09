@@ -1,0 +1,161 @@
+{
+  "session_id": "e841b5b9-81e8-4227-8939-39319bbf7324",
+  "student_id": "std_001",
+  "created_at": "2026-01-09T06:26:58.783025",
+  "updated_at": "2026-01-09T06:28:12.017117",
+  "status": "active",
+  "meta": {
+    "subject": "Mathematics",
+    "class_grade": 8,
+    "board": "CBSE",
+    "chapter": "Fractions and Decimals",
+    "chapter_number": 1,
+    "topic_requested": "Fractions and Decimals",
+    "session_type": "learning",
+    "estimated_duration_minutes": 30
+  },
+  "student": {
+    "student_id": "std_001",
+    "name": "Amarjit",
+    "class_grade": 8,
+    "board": "CBSE",
+    "preferences": {
+      "learning_style": "examples",
+      "pace": "medium",
+      "encouragement_level": "high",
+      "preferred_language": "English"
+    },
+    "interests": [],
+    "known_weaknesses": []
+  },
+  "current_phase": "diagnostic",
+  "diagnostic": {
+    "status": "in_progress",
+    "started_at": "2026-01-09T06:27:01.854073",
+    "completed_at": null,
+    "questions": [
+      {
+        "question_id": "diag_q1",
+        "question_text": "What is 1/2 as a decimal?",
+        "question_type": "numeric",
+        "difficulty": "medium",
+        "concept_tested": "Fraction to Decimal Conversion",
+        "student_answer": "0.5",
+        "correct_answer": "0.5",
+        "is_correct": true,
+        "time_taken_seconds": null,
+        "hints_used": 0,
+        "mistake_analysis": null
+      },
+      {
+        "question_id": "diag_q2",
+        "question_text": "What is 3/4 as a decimal? Think of it like a game score, if you have 3 lives out of 4, what's your survival rate?",
+        "question_type": "numeric",
+        "difficulty": "medium",
+        "concept_tested": "Fraction to Decimal Conversion",
+        "student_answer": "0",
+        "correct_answer": "",
+        "is_correct": false,
+        "time_taken_seconds": null,
+        "hints_used": 0,
+        "mistake_analysis": "The student may not have understood the concept of fraction to decimal conversion or did not attempt the question."
+      },
+      {
+        "question_id": "diag_q3",
+        "question_text": "What is 3/4 as a decimal?",
+        "question_type": "numeric",
+        "difficulty": "medium",
+        "concept_tested": "Fraction to Decimal Conversion",
+        "student_answer": "0.25",
+        "correct_answer": "0.75",
+        "is_correct": false,
+        "time_taken_seconds": null,
+        "hints_used": 0,
+        "mistake_analysis": "null"
+      },
+      {
+        "question_id": "diag_q5",
+        "question_text": "What is the decimal equivalent of 3/4?",
+        "question_type": "numeric",
+        "difficulty": "medium",
+        "concept_tested": "Fraction to Decimal Conversion",
+        "student_answer": null,
+        "correct_answer": "0.75",
+        "is_correct": null,
+        "time_taken_seconds": null,
+        "hints_used": 0,
+        "mistake_analysis": null
+      }
+    ],
+    "current_question_index": 0,
+    "assessment": null
+  },
+  "study_plan": {
+    "generated_at": null,
+    "total_concepts": 0,
+    "estimated_time_minutes": 0,
+    "concepts": [],
+    "current_concept_index": 0
+  },
+  "teaching_log": [],
+  "conversation": {
+    "total_messages": 7,
+    "recent_messages": [
+      {
+        "role": "assistant",
+        "content": "Namaste Amarjit! Let's start our fractions and decimals journey. Can you tell me, what is 1/2 as a decimal? Think of it like a cricket score, if a bowler concedes 1 run out of 2 balls, what's the average runs per ball?",
+        "timestamp": "2026-01-09T06:27:03.514385"
+      },
+      {
+        "role": "user",
+        "content": "0.5",
+        "timestamp": "2026-01-09T06:27:07.535617"
+      },
+      {
+        "role": "assistant",
+        "content": "Bahut achha, Amarjit! Your answer is absolutely correct. 1/2 is indeed 0.5. You're off to a great start! Now, let's try another one.",
+        "timestamp": "2026-01-09T06:27:08.549467"
+      },
+      {
+        "role": "user",
+        "content": "0",
+        "timestamp": "2026-01-09T06:27:57.862489"
+      },
+      {
+        "role": "assistant",
+        "content": "Don't worry, Amarjit! It seems like you didn't attempt the question. Let's try to understand it together. Can you think of a fraction that can be converted to a decimal? Remember, it's like converting a cricket score from fractions to decimals.",
+        "timestamp": "2026-01-09T06:27:59.230445"
+      },
+      {
+        "role": "user",
+        "content": "0.25",
+        "timestamp": "2026-01-09T06:28:10.298342"
+      },
+      {
+        "role": "assistant",
+        "content": "Achha, Amarjit! It looks like there's a small mistake. Let's try to understand where you went wrong. Remember, when converting a fraction to a decimal, we divide the numerator by the denominator. Can you think of what fraction would give us 0.25 and 0.75 as decimals? Let's work it out together.",
+        "timestamp": "2026-01-09T06:28:12.016838"
+      }
+    ],
+    "student_mood": "engaged",
+    "confusion_signals": 0,
+    "frustration_signals": 0,
+    "last_encouragement_at": null
+  },
+  "stats": {
+    "duration_minutes": 0,
+    "questions_attempted": 3,
+    "questions_correct": 1,
+    "accuracy_rate": 0.3333333333333333,
+    "hints_used": 0,
+    "concepts_taught": 0,
+    "concepts_mastered": 0,
+    "xp_earned": 0,
+    "streak_maintained": true
+  },
+  "ai_notes": {
+    "observations": [],
+    "teaching_adjustments_made": [],
+    "next_session_recommendations": []
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "session_id": "8de6c704-559c-4069-9105-06b7dcd1ca6c",
+  "student_id": "std_001",
+  "created_at": "2026-01-09T06:26:58.779905",
+  "updated_at": "2026-01-09T06:27:01.851485",
+  "status": "active",
+  "meta": {
+    "subject": "Mathematics",
+    "class_grade": 8,
+    "board": "CBSE",
+    "chapter": "Fractions and Decimals",
+    "chapter_number": 1,
+    "topic_requested": "Fractions and Decimals",
+    "session_type": "learning",
+    "estimated_duration_minutes": 30
+  },
+  "student": {
+    "student_id": "std_001",
+    "name": "Amarjit",
+    "class_grade": 8,
+    "board": "CBSE",
+    "preferences": {
+      "learning_style": "examples",
+      "pace": "medium",
+      "encouragement_level": "high",
+      "preferred_language": "English"
+    },
+    "interests": [],
+    "known_weaknesses": []
+  },
+  "current_phase": "diagnostic",
+  "diagnostic": {
+    "status": "in_progress",
+    "started_at": "2026-01-09T06:26:59.798521",
+    "completed_at": null,
+    "questions": [
+      {
+        "question_id": "diag_q1",
+        "question_text": "What fraction of the pizza have you eaten?",
+        "question_type": "numeric",
+        "difficulty": "medium",
+        "concept_tested": "Basic Fractions",
+        "student_answer": null,
+        "correct_answer": "3/8",
+        "is_correct": null,
+        "time_taken_seconds": null,
+        "hints_used": 0,
+        "mistake_analysis": null
+      }
+    ],
+    "current_question_index": 0,
+    "assessment": null
+  },
+  "study_plan": {
+    "generated_at": null,
+    "total_concepts": 0,
+    "estimated_time_minutes": 0,
+    "concepts": [],
+    "current_concept_index": 0
+  },
+  "teaching_log": [],
+  "conversation": {
+    "total_messages": 1,
+    "recent_messages": [
+      {
+        "role": "assistant",
+        "content": "Namaste Amarjit, let's start our fractions and decimals lesson with a fun question! Imagine you have a pizza that's cut into 8 equal pieces, and you eat 3 of them. What fraction of the pizza have you eaten?",
+        "timestamp": "2026-01-09T06:27:01.851438"
+      }
+    ],
+    "student_mood": "engaged",
+    "confusion_signals": 0,
+    "frustration_signals": 0,
+    "last_encouragement_at": null
+  },
+  "stats": {
+    "duration_minutes": 0,
+    "questions_attempted": 0,
+    "questions_correct": 0,
+    "accuracy_rate": 0.0,
+    "hints_used": 0,
+    "concepts_taught": 0,
+    "concepts_mastered": 0,
+    "xp_earned": 0,
+    "streak_maintained": true
+  },
+  "ai_notes": {
+    "observations": [],
+    "teaching_adjustments_made": [],
+    "next_session_recommendations": []
+  }
+}

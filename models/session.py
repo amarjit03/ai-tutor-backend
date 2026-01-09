@@ -36,6 +36,7 @@ class LearningStyle(str, Enum):
     STEP_BY_STEP = "step_by_step"
     ANALOGY = "analogy"
     FORMAL = "formal"
+    PRACTICE = "practice"
 
 
 class StudentMood(str, Enum):

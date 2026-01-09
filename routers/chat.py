@@ -26,15 +26,24 @@ async def start_diagnostic(session_id: str):
     Begins the initial assessment to understand student's current level.
     Returns the first diagnostic question.
     """
-    if not session_manager.session_exists(session_id):
-        raise HTTPException(status_code=404, detail="Session not found")
+    try:
+        if not session_manager.session_exists(session_id):
+            raise HTTPException(status_code=404, detail="Session not found")
+        
+        response = await tutor.start_diagnostic(session_id)
+        
+        if not response.success:
+            raise HTTPException(status_code=500, detail=response.error)
+        
+        return response
     
-    response = await tutor.start_diagnostic(session_id)
-    
-    if not response.success:
-        raise HTTPException(status_code=500, detail=response.error)
-    
-    return response
+    except HTTPException:
+        raise
+    except Exception as e:
+        print(f"ERROR in start_diagnostic: {str(e)}")
+        import traceback
+        print(traceback.format_exc())
+        raise HTTPException(status_code=500, detail=f"Internal server error: {str(e)}")
 
 
 @router.post("/submit-diagnostic-answer", response_model=APIResponse)
@@ -49,15 +58,24 @@ async def submit_diagnostic_answer(
     Evaluates the answer and returns feedback along with the next question
     or final assessment results.
     """
-    if not session_manager.session_exists(session_id):
-        raise HTTPException(status_code=404, detail="Session not found")
+    try:
+        if not session_manager.session_exists(session_id):
+            raise HTTPException(status_code=404, detail="Session not found")
+        
+        response = await tutor.submit_diagnostic_answer(session_id, question_id, answer)
+        
+        if not response.success:
+            raise HTTPException(status_code=500, detail=response.error)
+        
+        return response
     
-    response = await tutor.submit_diagnostic_answer(session_id, question_id, answer)
-    
-    if not response.success:
-        raise HTTPException(status_code=500, detail=response.error)
-    
-    return response
+    except HTTPException:
+        raise
+    except Exception as e:
+        print(f"ERROR in submit_diagnostic_answer: {str(e)}")
+        import traceback
+        print(traceback.format_exc())
+        raise HTTPException(status_code=500, detail=f"Internal server error: {str(e)}")
 
 
 @router.post("/generate-plan", response_model=APIResponse)
@@ -68,15 +86,24 @@ async def generate_study_plan(session_id: str):
     Creates a study plan based on diagnostic results.
     Should be called after diagnostic is complete.
     """
-    if not session_manager.session_exists(session_id):
-        raise HTTPException(status_code=404, detail="Session not found")
+    try:
+        if not session_manager.session_exists(session_id):
+            raise HTTPException(status_code=404, detail="Session not found")
+        
+        response = await tutor.generate_study_plan(session_id)
+        
+        if not response.success:
+            raise HTTPException(status_code=500, detail=response.error)
+        
+        return response
     
-    response = await tutor.generate_study_plan(session_id)
-    
-    if not response.success:
-        raise HTTPException(status_code=500, detail=response.error)
-    
-    return response
+    except HTTPException:
+        raise
+    except Exception as e:
+        print(f"ERROR in generate_study_plan: {str(e)}")
+        import traceback
+        print(traceback.format_exc())
+        raise HTTPException(status_code=500, detail=f"Internal server error: {str(e)}")
 
 
 @router.post("/start-teaching", response_model=APIResponse)
@@ -87,15 +114,24 @@ async def start_teaching(session_id: str):
     Begins teaching the next concept in the study plan.
     Returns teaching content and practice question.
     """
-    if not session_manager.session_exists(session_id):
-        raise HTTPException(status_code=404, detail="Session not found")
+    try:
+        if not session_manager.session_exists(session_id):
+            raise HTTPException(status_code=404, detail="Session not found")
+        
+        response = await tutor.start_teaching_concept(session_id)
+        
+        if not response.success:
+            raise HTTPException(status_code=500, detail=response.error)
+        
+        return response
     
-    response = await tutor.start_teaching_concept(session_id)
-    
-    if not response.success:
-        raise HTTPException(status_code=500, detail=response.error)
-    
-    return response
+    except HTTPException:
+        raise
+    except Exception as e:
+        print(f"ERROR in start_teaching: {str(e)}")
+        import traceback
+        print(traceback.format_exc())
+        raise HTTPException(status_code=500, detail=f"Internal server error: {str(e)}")
 
 
 @router.post("/submit-answer", response_model=APIResponse)
